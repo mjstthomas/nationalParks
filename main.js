@@ -38,7 +38,7 @@ function multiStates(arr){
 function parkList(obj){
   $('.resultList').empty();
   for (let i = 0; i < obj.data.length; i++){
-    $('.resultList').append(`<li><ul><li>${obj.data[i].fullName}</li><li>${obj.data[i].description}</li><li><a href="${obj.data[i].url}">${obj.data[i].url}</a></li></ul></li>`)
+    $('.resultList').append(`<li><ul><li>${obj.data[i].fullName}</li><li>${obj.data[i].description}</li><li><a href="${obj.data[i].url}" target="_blank">${obj.data[i].url}</a></li></ul></li>`)
   }
 }
 $(formSubmit)
