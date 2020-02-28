@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>National Park Search</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+ <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<body>
+<header><h1>Where would you like to visit a National Park?</h1></header>
+<form class="submit">
+	<input type="text" name="states" class="states" placeholder="please type all state codes with a single space between each state" required><br>
+	<input type="number" class="maxResults" min="1" max="50" placeholder="max results" required>
+	<button type="submit" class="stateSubmit">Submit</button>
+</form>
+<section class="results">
+	<ol class="resultList"></ol>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
